@@ -1,8 +1,0 @@
-apiVersion: image.toolkit.fluxcd.io/v1beta1
-kind: ImageRepository
-metadata:
-  name: test-app
-  namespace: flux-system
-spec:
-  interval: 1m
-  image: ghcr.io/algonimbus-trading/test_app
