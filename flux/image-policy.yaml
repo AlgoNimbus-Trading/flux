@@ -8,4 +8,4 @@ spec:
     name: test-app
   policy:
     semver:
-      range: ">=0.0.1"
+      range: 0.0.X
